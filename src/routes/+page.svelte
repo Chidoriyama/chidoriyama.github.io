@@ -11,12 +11,15 @@
 	import Icon from '$lib/assets/icon.png';
 
 	//backups
-	import Mai from "$lib/assets/avatars/mai.png"
-	import Ji from "$lib/assets/avatars/ji.png"
-	import Lamborghini from "$lib/assets/avatars/lamborghini.png"
-	import Washedup from "$lib/assets/avatars/washedup.png"
-	import Kyo from "$lib/assets/avatars/kyo.png"
-	import Akuma from "$lib/assets/avatars/akuma.png"
+	import Mai from '$lib/assets/avatars/mai.png';
+	import Ji from '$lib/assets/avatars/ji.png';
+	import Lamborghini from '$lib/assets/avatars/lamborghini.png';
+	import Washedup from '$lib/assets/avatars/washedup.png';
+	import Kyo from '$lib/assets/avatars/kyo.png';
+	import Akuma from '$lib/assets/avatars/akuma.png';
+
+	import Discord from '$lib/assets/discord.svg';
+	import Roblox from '$lib/assets/roblox.svg';
 
 	// https://tr.rbxcdn.com/35f388aad2041cd3c7782b90c7dc7a33/128/128/Image/Jpeg
 
@@ -30,13 +33,13 @@
 	];
 
 	const backupLineup = [
-		{ name: "mai", position: "Setter", avatar: Mai },
-		{ name: "Ji", position: "Left spiker", avatar: Ji },
-		{ name: "LAMBORGHINI", position: "Right spiker", avatar: Lamborghini },
-		{ name: "washedup", position: "Libero", avatar: Washedup },
-		{ name: "kyo", position: "Right backrow", avatar: Kyo },
-		{ name: "AkumaReleoZ", position: "Left backrow", avatar: Akuma },
-	]
+		{ name: 'mai', position: 'Setter', avatar: Mai },
+		{ name: 'Ji', position: 'Left spiker', avatar: Ji },
+		{ name: 'LAMBORGHINI', position: 'Right spiker', avatar: Lamborghini },
+		{ name: 'washedup', position: 'Libero', avatar: Washedup },
+		{ name: 'kyo', position: 'Right backrow', avatar: Kyo },
+		{ name: 'AkumaReleoZ', position: 'Left backrow', avatar: Akuma }
+	];
 </script>
 
 <div>
@@ -63,7 +66,7 @@
 	</div>
 
 	<div class="flex justify-center">
-		<div class="stats bg-base-200 shadow text-black">
+		<div class="stats stats-vertical sm:stats-horizontal bg-base-200 shadow text-black">
 			<div class="stat">
 				<div class="stat-figure text-secondary" />
 				<div class="stat-title">Total Members</div>
@@ -79,8 +82,37 @@
 		</div>
 	</div>
 
-	<div class="flex flex-col justify-center items-center p-10">
+	<div class="flex justify-center p-10">
+		<div class="card w-max bg-base-300 shadow-xl">
+			<div class="card-body">
+				<h2 class="card-title">Join us now!</h2>
+				<div class="card-actions flex-col items-center sm:flex-row justify-center ">
+					<div id="discord" class="btn text-white w-full sm:w-max">
+						<a
+							class="flex items-center"
+							href="https://discord.gg/hV5z48UqBz"
+							target="_blank"
+							rel="noreferrer"
+							><img src={Discord} width="30" height="30" alt="roblox logo" class="mr-2" />Discord
+							Server</a
+						>
+					</div>
+					<div class="bg-slate-400 btn hover:bg-slate-300 text-black w-full sm:w-max">
+						<a
+							href="https://www.roblox.com/groups/12965548/Takas-h-I-High#!/about"
+							class="flex items-center"
+							target="_blank"
+							rel="noreferrer"
+							><img src={Roblox} width="30" height="30" alt="roblox logo" class="mr-2" />Roblox
+							group</a
+						>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
+	<div class="flex flex-col justify-center items-center p-10">
 		<span class="text-secondary text-xs">(hover to see position)</span>
 		<div id="special-people" class="grid md:grid-cols-2 grid-flow-col gap-4 lg:gap-20">
 			<div class="flex flex-col items-center">
@@ -119,7 +151,10 @@
 		</div>
 
 		<h2 class="text-2xl font-semibold mb-10">Our core member</h2>
-		<div id="main-players" class="grid grid-rows-3 md:grid-rows-2 lg:grid-rows-1 grid-flow-col gap-4 mb-10">
+		<div
+			id="main-players"
+			class="grid grid-rows-3 md:grid-rows-2 lg:grid-rows-1 grid-flow-col gap-4 mb-10"
+		>
 			{#each lineup as player}
 				<div class="card w-max bg-base-100 shadow-xl image-full">
 					<figure>
@@ -138,7 +173,10 @@
 		</div>
 
 		<h2 class="text-2xl font-semibold mb-10">Backup lineup</h2>
-		<div id="main-players" class="grid grid-rows-3 md:grid-rows-2 lg:grid-rows-1 grid-flow-col gap-4 mb-10">
+		<div
+			id="main-players"
+			class="grid grid-rows-3 md:grid-rows-2 lg:grid-rows-1 grid-flow-col gap-4 mb-10"
+		>
 			{#each backupLineup as player}
 				<div class="card w-max bg-base-100 shadow-xl image-full">
 					<figure>
@@ -157,3 +195,13 @@
 		</div>
 	</div>
 </div>
+
+<style>
+	#discord {
+		background-color: #7289d9;
+	}
+
+	#discord:hover {
+		background-color: #465cad;
+	}
+</style>
