@@ -1,71 +1,94 @@
 {
-  "src/lib/assets/avatars/rod.png": {
-    "file": "_app/immutable/assets/rod-2231fc79.png",
-    "src": "src/lib/assets/avatars/rod.png"
+  "src/lib/assets/avatars/mikey.png": {
+    "file": "_app/immutable/assets/mikey-d76a8c97.png",
+    "src": "src/lib/assets/avatars/mikey.png"
   },
   "src/lib/assets/avatars/bacon.png": {
     "file": "_app/immutable/assets/bacon-184fb970.png",
     "src": "src/lib/assets/avatars/bacon.png"
   },
-  "src/lib/assets/avatars/mikey.png": {
-    "file": "_app/immutable/assets/mikey-d76a8c97.png",
-    "src": "src/lib/assets/avatars/mikey.png"
-  },
-  "src/lib/assets/avatars/silvershi.png": {
-    "file": "_app/immutable/assets/silvershi-85aef86e.png",
-    "src": "src/lib/assets/avatars/silvershi.png"
-  },
-  "src/lib/assets/avatars/yes.png": {
-    "file": "_app/immutable/assets/yes-c9b0f803.png",
-    "src": "src/lib/assets/avatars/yes.png"
-  },
-  "src/lib/assets/avatars/mai.png": {
-    "file": "_app/immutable/assets/mai-cbd0f602.png",
-    "src": "src/lib/assets/avatars/mai.png"
-  },
-  "src/lib/assets/avatars/ji.png": {
-    "file": "_app/immutable/assets/ji-511ca701.png",
-    "src": "src/lib/assets/avatars/ji.png"
-  },
-  "src/lib/assets/avatars/lamborghini.png": {
-    "file": "_app/immutable/assets/lamborghini-b76e9ff7.png",
-    "src": "src/lib/assets/avatars/lamborghini.png"
-  },
-  "src/lib/assets/avatars/washedup.png": {
-    "file": "_app/immutable/assets/washedup-635298ce.png",
-    "src": "src/lib/assets/avatars/washedup.png"
+  "src/lib/assets/avatars/rod.png": {
+    "file": "_app/immutable/assets/rod-2231fc79.png",
+    "src": "src/lib/assets/avatars/rod.png"
   },
   "src/lib/assets/avatars/ant.png": {
     "file": "_app/immutable/assets/ant-395f77ac.png",
     "src": "src/lib/assets/avatars/ant.png"
   },
+  "src/lib/assets/avatars/yes.png": {
+    "file": "_app/immutable/assets/yes-c9b0f803.png",
+    "src": "src/lib/assets/avatars/yes.png"
+  },
+  "src/lib/assets/avatars/silvershi.png": {
+    "file": "_app/immutable/assets/silvershi-85aef86e.png",
+    "src": "src/lib/assets/avatars/silvershi.png"
+  },
+  "src/lib/assets/avatars/mai.png": {
+    "file": "_app/immutable/assets/mai-cbd0f602.png",
+    "src": "src/lib/assets/avatars/mai.png"
+  },
+  "src/lib/assets/avatars/lamborghini.png": {
+    "file": "_app/immutable/assets/lamborghini-b76e9ff7.png",
+    "src": "src/lib/assets/avatars/lamborghini.png"
+  },
+  "src/lib/assets/avatars/ji.png": {
+    "file": "_app/immutable/assets/ji-511ca701.png",
+    "src": "src/lib/assets/avatars/ji.png"
+  },
   "src/lib/assets/avatars/dethrin.png": {
     "file": "_app/immutable/assets/dethrin-3027f345.png",
     "src": "src/lib/assets/avatars/dethrin.png"
   },
-  "src/lib/assets/icon.png": {
-    "file": "_app/immutable/assets/icon-8c4067e7.png",
-    "src": "src/lib/assets/icon.png"
+  "src/lib/assets/avatars/washedup.png": {
+    "file": "_app/immutable/assets/washedup-635298ce.png",
+    "src": "src/lib/assets/avatars/washedup.png"
   },
   "src/lib/assets/avatars/kyo.png": {
     "file": "_app/immutable/assets/kyo-91328934.png",
     "src": "src/lib/assets/avatars/kyo.png"
   },
+  "src/lib/assets/discord.svg": {
+    "file": "_app/immutable/assets/discord-04f25cdb.svg",
+    "src": "src/lib/assets/discord.svg"
+  },
+  "src/lib/assets/roblox.svg": {
+    "file": "_app/immutable/assets/roblox-a6f55b9b.svg",
+    "src": "src/lib/assets/roblox.svg"
+  },
+  "src/lib/assets/icon.png": {
+    "file": "_app/immutable/assets/icon-8c4067e7.png",
+    "src": "src/lib/assets/icon.png"
+  },
   "src/lib/assets/avatars/akuma.png": {
     "file": "_app/immutable/assets/akuma-da590172.png",
     "src": "src/lib/assets/avatars/akuma.png"
   },
+  "src/routes/+page.css": {
+    "file": "_app/immutable/assets/_page-34792a70.css",
+    "src": "src/routes/+page.css"
+  },
   "src/routes/+layout.css": {
-    "file": "_app/immutable/assets/_layout-1f0c9073.css",
+    "file": "_app/immutable/assets/_layout-2e97f702.css",
     "src": "src/routes/+layout.css"
   },
   ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-1c599128.js",
+    "file": "_app/immutable/chunks/1-8e9726e2.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/.pnpm/@sveltejs+kit@1.0.1_svelte@3.55.0+vite@4.0.3/node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
     ]
+  },
+  ".svelte-kit/generated/nodes/3.js": {
+    "file": "_app/immutable/chunks/3-fde91460.js",
+    "src": ".svelte-kit/generated/nodes/3.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/about/+page.svelte"
+    ]
+  },
+  "__layout-da46b06b.js": {
+    "file": "_app/immutable/chunks/_layout-da46b06b.js"
   },
   "src/routes/+layout.js": {
     "file": "_app/immutable/modules/pages/_layout.js-9cbb603b.js",
@@ -75,27 +98,31 @@
       "__layout-da46b06b.js"
     ]
   },
-  "__layout-da46b06b.js": {
-    "file": "_app/immutable/chunks/_layout-da46b06b.js"
-  },
   ".svelte-kit/generated/nodes/2.js": {
-    "file": "_app/immutable/chunks/2-e5f8cbde.js",
+    "file": "_app/immutable/chunks/2-67ba1ac8.js",
     "src": ".svelte-kit/generated/nodes/2.js",
     "isDynamicEntry": true,
     "imports": [
       "src/routes/+page.svelte"
     ]
   },
+  "_roblox-2ece0dea.js": {
+    "file": "_app/immutable/chunks/roblox-2ece0dea.js",
+    "assets": [
+      "_app/immutable/assets/discord-04f25cdb.svg",
+      "_app/immutable/assets/roblox-a6f55b9b.svg"
+    ]
+  },
   "src/routes/about/+page.svelte": {
-    "file": "_app/immutable/components/pages/about/_page.svelte-c0a4e4d0.js",
+    "file": "_app/immutable/components/pages/about/_page.svelte-47595399.js",
     "src": "src/routes/about/+page.svelte",
     "isEntry": true,
     "imports": [
-      "_index-02971767.js"
+      "_index-45e64cbd.js"
     ]
   },
   ".svelte-kit/generated/nodes/0.js": {
-    "file": "_app/immutable/chunks/0-829d56d2.js",
+    "file": "_app/immutable/chunks/0-b9d3d9ef.js",
     "src": ".svelte-kit/generated/nodes/0.js",
     "isDynamicEntry": true,
     "imports": [
@@ -103,38 +130,34 @@
       "src/routes/+layout.svelte"
     ]
   },
-  ".svelte-kit/generated/nodes/3.js": {
-    "file": "_app/immutable/chunks/3-7688f018.js",
-    "src": ".svelte-kit/generated/nodes/3.js",
-    "isDynamicEntry": true,
+  "_singletons-568211b5.js": {
+    "file": "_app/immutable/chunks/singletons-568211b5.js",
     "imports": [
-      "src/routes/about/+page.svelte"
-    ]
-  },
-  "_singletons-a70f00fe.js": {
-    "file": "_app/immutable/chunks/singletons-a70f00fe.js",
-    "imports": [
-      "_index-02971767.js"
+      "_index-45e64cbd.js"
     ]
   },
   "node_modules/.pnpm/@sveltejs+kit@1.0.1_svelte@3.55.0+vite@4.0.3/node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "_app/immutable/components/error.svelte-9f256822.js",
+    "file": "_app/immutable/components/error.svelte-6525369d.js",
     "src": "node_modules/.pnpm/@sveltejs+kit@1.0.1_svelte@3.55.0+vite@4.0.3/node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
-      "_index-02971767.js",
-      "_singletons-a70f00fe.js"
+      "_index-45e64cbd.js",
+      "_singletons-568211b5.js"
     ]
   },
-  "_index-02971767.js": {
-    "file": "_app/immutable/chunks/index-02971767.js"
+  "_index-45e64cbd.js": {
+    "file": "_app/immutable/chunks/index-45e64cbd.js"
   },
   "src/routes/+page.svelte": {
-    "file": "_app/immutable/components/pages/_page.svelte-54cf740b.js",
+    "file": "_app/immutable/components/pages/_page.svelte-b00c5d6f.js",
     "src": "src/routes/+page.svelte",
     "isEntry": true,
     "imports": [
-      "_index-02971767.js"
+      "_index-45e64cbd.js",
+      "_roblox-2ece0dea.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-34792a70.css"
     ],
     "assets": [
       "_app/immutable/assets/mikey-d76a8c97.png",
@@ -153,30 +176,31 @@
       "_app/immutable/assets/akuma-da590172.png"
     ]
   },
-  "src/routes/+layout.svelte": {
-    "file": "_app/immutable/components/pages/_layout.svelte-841f032a.js",
-    "src": "src/routes/+layout.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-02971767.js"
-    ],
-    "css": [
-      "_app/immutable/assets/_layout-1f0c9073.css"
-    ]
-  },
   "node_modules/.pnpm/@sveltejs+kit@1.0.1_svelte@3.55.0+vite@4.0.3/node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-b0d74105.js",
+    "file": "_app/immutable/start-05428183.js",
     "src": "node_modules/.pnpm/@sveltejs+kit@1.0.1_svelte@3.55.0+vite@4.0.3/node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_index-02971767.js",
-      "_singletons-a70f00fe.js"
+      "_index-45e64cbd.js",
+      "_singletons-568211b5.js"
     ],
     "dynamicImports": [
       ".svelte-kit/generated/nodes/0.js",
       ".svelte-kit/generated/nodes/1.js",
       ".svelte-kit/generated/nodes/2.js",
       ".svelte-kit/generated/nodes/3.js"
+    ]
+  },
+  "src/routes/+layout.svelte": {
+    "file": "_app/immutable/components/pages/_layout.svelte-e59a1d82.js",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-45e64cbd.js",
+      "_roblox-2ece0dea.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout-2e97f702.css"
     ]
   }
 }
