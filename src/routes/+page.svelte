@@ -6,6 +6,7 @@
 	import Rod from '$lib/assets/avatars/rod.png';
 	import Silvershi from '$lib/assets/avatars/silvershi.png';
 	import Yes from '$lib/assets/avatars/yes.png';
+	import Icon from "$lib/assets/icon.png"
 
 
     // https://tr.rbxcdn.com/35f388aad2041cd3c7782b90c7dc7a33/128/128/Image/Jpeg
@@ -24,7 +25,7 @@
 	<div class="hero bg-base-100 flex justify-center lg:justify-start">
 		<div class="hero-content flex-col lg:flex-row">
 			<img
-				src="/icon.png"
+				src={Icon}
                 height=128 width=128
 				class="max-w-sm rounded-full"
 				alt="volleybal 4.2 icon"
