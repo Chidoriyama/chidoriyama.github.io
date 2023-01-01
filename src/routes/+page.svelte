@@ -70,13 +70,13 @@
 			<div class="stat">
 				<div class="stat-figure text-secondary" />
 				<div class="stat-title">Total Members</div>
-				<div class="stat-value text-secondary">35</div>
+				<div class="stat-value text-secondary">47</div>
 				<div class="stat-desc">And still growing!</div>
 			</div>
 			<div class="stat">
 				<div class="stat-figure text-secondary" />
 				<div class="stat-title">Scrims Won</div>
-				<div class="stat-value text-secondary">4</div>
+                                <div class="stat-value text-secondary">6</div>
 				<!-- <div class="stat-desc"></div> -->
 			</div>
 		</div>
