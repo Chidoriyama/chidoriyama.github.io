@@ -40,7 +40,14 @@
 		{ name: 'kyo', position: 'Right backrow', avatar: Kyo },
 		{ name: 'AkumaReleoZ', position: 'Left backrow', avatar: Akuma }
 	];
+
+	const members = 47;
+	const scrimsWon = 6;
 </script>
+
+<svelte:head>
+	<title>Home</title>
+</svelte:head>
 
 <div>
 	<div class="hero bg-base-100 flex justify-center lg:justify-start">
@@ -70,13 +77,13 @@
 			<div class="stat">
 				<div class="stat-figure text-secondary" />
 				<div class="stat-title">Total Members</div>
-				<div class="stat-value text-secondary">47</div>
+				<div class="stat-value text-secondary">{members}</div>
 				<div class="stat-desc">And still growing!</div>
 			</div>
 			<div class="stat">
 				<div class="stat-figure text-secondary" />
 				<div class="stat-title">Scrims Won</div>
-                                <div class="stat-value text-secondary">6</div>
+				<div class="stat-value text-secondary">{scrimsWon}</div>
 				<!-- <div class="stat-desc"></div> -->
 			</div>
 		</div>
@@ -97,7 +104,7 @@
 							Server</a
 						>
 					</div>
-					<div class="bg-slate-400 btn hover:bg-slate-300 text-black w-full sm:w-max">
+					<div class="bg-slate-600 btn hover:bg-slate-800 text-white w-full sm:w-max">
 						<a
 							href="https://www.roblox.com/groups/12965548/Takas-h-I-High#!/about"
 							class="flex items-center"

@@ -1,8 +1,8 @@
 <script>
-    const urls = [
-        { text: "Home", href: "/" },
-        { text: "About Us", href: "/about" },
-    ]
+	const urls = [
+		{ text: 'Home', href: '/' },
+		{ text: 'About Us', href: '/about' }
+	];
 </script>
 
 <div class="drawer">
@@ -30,16 +30,16 @@
 			<div class="flex-none hidden lg:block">
 				<ul class="menu menu-horizontal">
 					<!-- Navbar menu content here -->
-                    {#each urls as nav}
-					    <li><a href={nav.href}>{nav.text}</a></li>
-                    {/each}
+					{#each urls as nav}
+						<li><a href={nav.href}>{nav.text}</a></li>
+					{/each}
 				</ul>
 			</div>
 		</div>
 		<!-- Page content here -->
 		<div id="main-content" class="h-full">
-            <slot/>
-        </div>
+			<slot />
+		</div>
 	</div>
 	<div class="drawer-side">
 		<label for="my-drawer-3" class="drawer-overlay" />
@@ -47,7 +47,7 @@
 			<!-- Sidebar content here -->
 			{#each urls as nav}
 				<li><a href={nav.href}>{nav.text}</a></li>
-            {/each}
+			{/each}
 		</ul>
 	</div>
 </div>
