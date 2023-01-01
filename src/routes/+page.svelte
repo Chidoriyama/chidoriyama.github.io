@@ -96,7 +96,7 @@
 				<div class="card-actions flex-col items-center sm:flex-row justify-center ">
 					<div id="discord" class="btn text-white w-full sm:w-max">
 						<a
-							class="flex items-center"
+							class="flex items-center w-full"
 							href="https://discord.gg/hV5z48UqBz"
 							target="_blank"
 							rel="noreferrer"
@@ -107,7 +107,7 @@
 					<div class="bg-slate-600 btn hover:bg-slate-800 text-white w-full sm:w-max">
 						<a
 							href="https://www.roblox.com/groups/12965548/Takas-h-I-High#!/about"
-							class="flex items-center"
+							class="flex items-center w-full"
 							target="_blank"
 							rel="noreferrer"
 							><img src={Roblox} width="30" height="30" alt="roblox logo" class="mr-2" />Roblox
