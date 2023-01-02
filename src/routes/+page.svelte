@@ -18,8 +18,7 @@
 	import Kyo from '$lib/assets/avatars/kyo.png';
 	import Akuma from '$lib/assets/avatars/akuma.png';
 
-	import Discord from '$lib/assets/discord.svg';
-	import Roblox from '$lib/assets/roblox.svg';
+        import "iconify-icon"
 
 	// https://tr.rbxcdn.com/35f388aad2041cd3c7782b90c7dc7a33/128/128/Image/Jpeg
 
@@ -41,7 +40,7 @@
 		{ name: 'AkumaReleoZ', position: 'Left backrow', avatar: Akuma }
 	];
 
-	const members = 47;
+	const members = 61;
 	const scrimsWon = 6;
 </script>
 
@@ -97,10 +96,10 @@
 					<div id="discord" class="btn text-white w-full sm:w-max">
 						<a
 							class="flex items-center w-full"
-							href="https://discord.gg/hV5z48UqBz"
+							href="https://discord.gg/hv5z48uqBz"
 							target="_blank"
 							rel="noreferrer"
-							><img src={Discord} width="30" height="30" alt="roblox logo" class="mr-2" />Discord
+       ><iconify-icon icon="jam:discord" style="color: white;" width="20" height="20" class="mr-2"></iconify-icon>Discord
 							Server</a
 						>
 					</div>
@@ -110,7 +109,7 @@
 							class="flex items-center w-full"
 							target="_blank"
 							rel="noreferrer"
-							><img src={Roblox} width="30" height="30" alt="roblox logo" class="mr-2" />Roblox
+                                                        ><iconify-icon icon="simple-icons:roblox" style="color: white;" width="20" height="20" class="mr-2" ></iconify-icon>Roblox
 							group</a
 						>
 					</div>

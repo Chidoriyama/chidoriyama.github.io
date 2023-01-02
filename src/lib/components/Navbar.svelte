@@ -10,7 +10,7 @@
 	<div class="drawer-content flex flex-col">
 		<!-- Navbar -->
 		<div class="w-full navbar bg-primary">
-			<div class="flex-none lg:hidden">
+			<div class="flex-none md:hidden">
 				<label for="my-drawer-3" class="btn btn-square btn-ghost">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -26,8 +26,8 @@
 					>
 				</label>
 			</div>
-			<div class="flex-1 px-2 mx-2"><a href="/" class="font-semibold text-lg">Chidoriyama</a></div>
-			<div class="flex-none hidden lg:block">
+			<div class="flex-1 px-2 mx-2"><a href="/" class="font-semibold text-lg">Chidoriyama Academy</a></div>
+			<div class="flex-none hidden md:block">
 				<ul class="menu menu-horizontal">
 					<!-- Navbar menu content here -->
 					{#each urls as nav}
@@ -37,7 +37,7 @@
 			</div>
 		</div>
 		<!-- Page content here -->
-		<div id="main-content" class="h-full">
+		<div id="main-content" class="h-max bg-base-100">
 			<slot />
 		</div>
 	</div>
