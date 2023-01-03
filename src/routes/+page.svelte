@@ -18,7 +18,7 @@
 	import Kyo from '$lib/assets/avatars/kyo.png';
 	import Akuma from '$lib/assets/avatars/akuma.png';
 
-        import "iconify-icon"
+	import 'iconify-icon';
 
 	// https://tr.rbxcdn.com/35f388aad2041cd3c7782b90c7dc7a33/128/128/Image/Jpeg
 
@@ -40,8 +40,8 @@
 		{ name: 'AkumaReleoZ', position: 'Left backrow', avatar: Akuma }
 	];
 
-	const members = 61;
-	const scrimsWon = 6;
+	const members = 67;
+	const scrimsWon = 7;
 </script>
 
 <svelte:head>
@@ -99,8 +99,13 @@
 							href="https://discord.gg/hv5z48uqBz"
 							target="_blank"
 							rel="noreferrer"
-       ><iconify-icon icon="jam:discord" style="color: white;" width="20" height="20" class="mr-2"></iconify-icon>Discord
-							Server</a
+							><iconify-icon
+								icon="jam:discord"
+								style="color: white;"
+								width="20"
+								height="20"
+								class="mr-2"
+							/>Discord Server</a
 						>
 					</div>
 					<div class="bg-slate-600 btn hover:bg-slate-800 text-white w-full sm:w-max">
@@ -109,8 +114,13 @@
 							class="flex items-center w-full"
 							target="_blank"
 							rel="noreferrer"
-                                                        ><iconify-icon icon="simple-icons:roblox" style="color: white;" width="20" height="20" class="mr-2" ></iconify-icon>Roblox
-							group</a
+							><iconify-icon
+								icon="simple-icons:roblox"
+								style="color: white;"
+								width="20"
+								height="20"
+								class="mr-2"
+							/>Roblox group</a
 						>
 					</div>
 				</div>
@@ -119,11 +129,12 @@
 	</div>
 
 	<div class="flex flex-col justify-center items-center p-10">
-		<span class="text-secondary text-xs">(hover to see position)</span>
+		<span class="text-secondary text-2xl font-bold ">Meet our team</span>
+		<span class="text-secondary text-xs mb-10">(hover to see position)</span>
 		<div id="special-people" class="grid md:grid-cols-2 grid-flow-col gap-4 lg:gap-20">
-			<div class="flex flex-col items-center">
-				<h2 class="text-2xl font-semibold mb-10">Our captain</h2>
-				<div class="card w-max bg-base-100 shadow-xl image-full mb-10">
+			<div class="flex flex-col items-center mb-10">
+				<h2 class="text-xl font-semibold mb-5">Our captain</h2>
+				<div class="card w-max bg-base-100 shadow-xl image-full">
 					<figure>
 						<img src={Mikey} height="128" width="128" alt="player avatar" class="m-0" />
 					</figure>
@@ -138,9 +149,9 @@
 				</div>
 			</div>
 
-			<div class="flex flex-col items-center">
-				<h2 class="text-2xl font-semibold mb-10">Our coach</h2>
-				<div class="card w-max bg-base-100 shadow-xl image-full mb-10">
+			<div class="flex flex-col items-center mb-10">
+				<h2 class="text-xl font-semibold mb-5">Our coach</h2>
+				<div class="card w-max bg-base-100 shadow-xl image-full">
 					<figure>
 						<img src={Kyo} height="128" width="128" alt="player avatar" class="m-0" />
 					</figure>
@@ -156,7 +167,7 @@
 			</div>
 		</div>
 
-		<h2 class="text-2xl font-semibold mb-10">Our core member</h2>
+		<h2 class="text-xl font-semibold mb-5">Our core member</h2>
 		<div
 			id="main-players"
 			class="grid grid-rows-3 md:grid-rows-2 lg:grid-rows-1 grid-flow-col gap-4 mb-10"
@@ -167,7 +178,7 @@
 						<img src={player.avatar} height="128" width="128" alt="player avatar" class="m-0" />
 					</figure>
 					<div
-						class="card-body p-1 w-full h-full flex items-center justify-center tooltip"
+						class="card-body p-1 w-full h-full flex items-center justify-center tooltip text-md"
 						data-tip={player.position}
 					>
 						<div>
@@ -178,7 +189,7 @@
 			{/each}
 		</div>
 
-		<h2 class="text-2xl font-semibold mb-10">Backup lineup</h2>
+		<h2 class="text-xl font-semibold mb-5">Backup lineup</h2>
 		<div
 			id="main-players"
 			class="grid grid-rows-3 md:grid-rows-2 lg:grid-rows-1 grid-flow-col gap-4 mb-10"
@@ -189,7 +200,7 @@
 						<img src={player.avatar} height="128" width="128" alt="player avatar" class="m-0" />
 					</figure>
 					<div
-						class="card-body p-1 w-full h-full flex items-center justify-center tooltip"
+						class="card-body p-1 w-full h-full flex items-center justify-center tooltip text-md"
 						data-tip={player.position}
 					>
 						<div>

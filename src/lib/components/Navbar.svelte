@@ -26,7 +26,9 @@
 					>
 				</label>
 			</div>
-			<div class="flex-1 px-2 mx-2"><a href="/" class="font-semibold text-lg">Chidoriyama Academy</a></div>
+			<div class="flex-1 px-2 mx-2">
+				<a href="/" class="font-semibold text-lg">Chidoriyama Academy</a>
+			</div>
 			<div class="flex-none hidden md:block">
 				<ul class="menu menu-horizontal">
 					<!-- Navbar menu content here -->
