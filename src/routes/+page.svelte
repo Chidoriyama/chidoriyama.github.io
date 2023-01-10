@@ -40,8 +40,8 @@
 		{ name: 'AkumaReleoZ', position: 'Left backrow', avatar: Akuma }
 	];
 
-	const members = 67;
-	const scrimsWon = 7;
+	const members = 66;
+	const scrimsWon = 17;
 </script>
 
 <svelte:head>
